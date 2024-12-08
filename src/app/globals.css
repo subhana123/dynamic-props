@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles */
+body {
+  @apply bg-gradient-to-r from-blue-500 to-purple-500 text-white min-h-screen flex items-center justify-center;
+}
+
+.custom_button {
+  @apply bg-white text-blue-700 font-semibold py-2 px-4 rounded-lg hover:bg-blue-700 hover:text-white transition duration-200 ease-in-out;
+}
+
+.container {
+  @apply bg-white bg-opacity-20 p-8 rounded-lg shadow-lg max-w-xl mx-auto;
+}
+.country-image {
+    @apply rounded-lg shadow-lg mt-4;
+  }
+  
